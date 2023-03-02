@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 </title>
+  
+</head>
+<body>
+
+
+<script>
+
+let name = prompt('Please, enter your name.');
+let age = parseInt(prompt('Please, enter your age.'));
+        function voteAllowed(){
+            document.write(`<h1> Hello, ${name}.</h1>`);
+        
+            if(age >= 18){
+            document.write(`<p> Congratulations, you are old enough to vote!</p>`);
+        } else {
+            document.write(`<p> We appreciate your interest in the political process but regret to inform you that you are not yet old enough to vote.</p>`);
+        }
+    }
+    voteAllowed();
+</script>
+
+</body>
+</html>
